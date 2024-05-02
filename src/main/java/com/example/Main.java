@@ -8,13 +8,13 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {public static void main(String[] args) throws InvalidMoveException {
-    System.out.println("Hello world!");
+    System.out.println("Hello Let's Play!");
     Scanner scanner = new Scanner(System.in);
     GameController gameController = new GameController();
 
     int dimension = 3;
     List<Player> players = List.of(
-            new Player("Harsh", new Symbol('X'), PlayerType.HUMAN),
+            new Player("Manoj", new Symbol('X'), PlayerType.HUMAN),
             new Bot("Scaler", new Symbol('O'), PlayerType.BOT, BotDifficultyLevel.EASY)
     );
 
